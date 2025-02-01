@@ -23,6 +23,10 @@ repositories {
 extra["springCloudVersion"] = "2024.0.0"
 
 dependencies {
+	// springdoc-openapi-ui
+	implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.3.0")
+
+	// jasypt
 	implementation("com.github.ulisesbocchio:jasypt-spring-boot-starter:3.0.4")
 
 	// Cloud

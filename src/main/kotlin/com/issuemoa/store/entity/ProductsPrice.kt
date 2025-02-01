@@ -17,7 +17,7 @@ data class ProductsPrice(
     val entpId: Long,
     val goodsId: Long,
     val price: Int,
-    val priceOneYn: String,
+    val plusOneYn: String,
     val dcYn: String,
     val dcStartDay: Int,
     val dcEndDay: Int,
